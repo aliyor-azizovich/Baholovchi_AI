@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1201</width>
+    <height>835</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="2" column="1" colspan="5">
+    <widget class="QTableWidget" name="tableWidget_wear"/>
+   </item>
+   <item row="11" column="5">
+    <widget class="QPushButton" name="pushButton_OK">
+     <property name="text">
+      <string>OK</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QLabel" name="label_unit">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Объём</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="3" colspan="3">
+    <widget class="QLineEdit" name="lineEdit_unit"/>
+   </item>
+   <item row="5" column="1">
+    <widget class="QLabel" name="label_reg_koeff">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Рег коэфф</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="3" colspan="3">
+    <widget class="QLineEdit" name="lineEdit_reg_koeff"/>
+   </item>
+   <item row="6" column="1">
+    <widget class="QLabel" name="label_stat_koeff">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Коэффициент Госкомстата с  01.04.2004 по </string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QLabel" name="label_developper">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Прибыль предпринимателя</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1" colspan="2">
+    <widget class="QLabel" name="label_inconsistency">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Коэффициент недостроенности конструкций</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="3" colspan="3">
+    <widget class="QLineEdit" name="lineEdit_wear"/>
+   </item>
+   <item row="6" column="3" colspan="3">
+    <widget class="QLineEdit" name="lineEdit_stat_koeff"/>
+   </item>
+   <item row="10" column="3" colspan="3">
+    <widget class="QLineEdit" name="lineEdit_final_cost"/>
+   </item>
+   <item row="0" column="1" colspan="4">
+    <widget class="QLabel" name="label_choosed_building">
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QLabel" name="label_unit_corrected_price">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Откорректированная стоимость УКУП</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="3" colspan="3">
+    <widget class="QLineEdit" name="lineEdit_developper"/>
+   </item>
+   <item row="8" column="3" colspan="3">
+    <widget class="QLineEdit" name="lineEdit_inconsistency"/>
+   </item>
+   <item row="3" column="3" colspan="3">
+    <widget class="QLineEdit" name="lineEdit_corrected_price"/>
+   </item>
+   <item row="10" column="1" colspan="2">
+    <widget class="QLabel" name="label_final_cost">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Оценочная стоимость</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1" colspan="2">
+    <widget class="QLabel" name="label_wear">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Физический износ</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1" colspan="5">
+    <widget class="QComboBox" name="comboBox_type_koeff"/>
+   </item>
+   <item row="4" column="0" rowspan="7">
+    <widget class="QLabel" name="label_injener_correct">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QGroupBox" name="groupBox_deviations">
+     <property name="title">
+      <string/>
+     </property>
+     <layout class="QGridLayout" name="gridLayout_6">
+      <item row="1" column="0">
+       <widget class="QComboBox" name="comboBox_facade"/>
+      </item>
+      <item row="0" column="0">
+       <widget class="QLabel" name="label_facade">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Корректировка на улучшение фасада</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QLabel" name="label_facade_result">
+        <property name="sizePolicy">
+         <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
+          <horstretch>0</horstretch>
+          <verstretch>0</verstretch>
+         </sizepolicy>
+        </property>
+        <property name="font">
+         <font>
+          <weight>75</weight>
+          <bold>true</bold>
+         </font>
+        </property>
+        <property name="text">
+         <string>Фасад не выбран</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QGroupBox" name="groupBox_improvements">
+     <property name="title">
+      <string/>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="label_height_correction">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Корректировка на высоту</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
